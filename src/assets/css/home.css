@@ -177,7 +177,7 @@
 
 /* main */
 #main {
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 /* section1 */
@@ -896,8 +896,6 @@
 #section6 .skill04 .skill__box.skill__box:nth-last-of-type(2) {
     margin-top: 19px;
 }
-
-#section6 .skill__box img {}
 
 #section6 .skill__inner span {
     margin-left: 130px;
