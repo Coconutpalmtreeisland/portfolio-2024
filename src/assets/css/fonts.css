@@ -1,0 +1,54 @@
+@import url('https://fonts.cdnfonts.com/css/shrikhand');
+@import url('https://fonts.cdnfonts.com/css/montserrat');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.cdnfonts.com/css/dancing-script');
+@import url('https://webfontworld.github.io/netmarble/Netmarble.css');
+@import url('https://webfontworld.github.io/score/SCoreDream.css');
+@import url('https://webfontworld.github.io/gmarket/GmarketSans.css');
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&family=Galada&family=Kaushan+Script&family=Mr+Dafoe&family=Yellowtail&family=Yesteryear&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;500;600;700&family=Neonderthaw&family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,900&display=swap');
+
+/* font-family: 'Birthstone'; */
+/* font-family: 'Galada'; */
+/* font-family: 'Kaushan Script'; */
+/* font-family: 'Mr Dafoe'; */
+/* font-family: 'Yellowtail'; */
+/* font-family: 'Yesteryear'; */
+/* font-family: 'Neonderthaw'; */
+/* font-family: 'DynaPuff'; */
+/* font-family: 'Tilt Neon'; */
+/* font-family: 'Playfair Display'; */
+
+.shrink {
+    font-family: "Shrikhand";
+}
+
+.mont {
+    font-family: "Montserrat";
+}
+
+.monta {
+    font-family: "Montserrat Alternates";
+}
+
+.nun {
+    font-family: "Nunito";
+}
+
+.dancing {
+    font-family: "Dancing Script";
+}
+
+.net {
+    font-family: "Netmarble";
+}
+
+.score {
+    font-family: "SCoreDream";
+}
+
+.shrink {
+    font-family: "GmarketSans";
+}
