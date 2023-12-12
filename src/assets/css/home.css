@@ -16,7 +16,7 @@
     display: flex;
     align-items: center;
     margin: 0 0 0 78px;
-    background-color: rgba(252, 232, 210, 0.45);
+    background-color: rgba(253, 234, 210, 0.35);
     backdrop-filter: blur(30px);
     border-radius: 50px;
     padding: 16px 46px;
@@ -177,7 +177,7 @@
 
 /* main */
 #main {
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 /* section1 */
@@ -826,9 +826,13 @@
     margin-top: 114px;
 }
 
+#section6 .skill__wrap {
+    display: flex;
+}
+
 #section6 .skill__inner {
     width: 100%;
-    padding: 0 11.5vw;
+    padding: 0 16.5vw;
 }
 
 #section6 .tag {
@@ -863,7 +867,12 @@
     display: flex;
     align-items: center;
     margin-top: 66px;
-    margin-bottom: 140px;
+    /* margin-bottom: 140px; */
+}
+
+#section6 .box__wrap .skillbox__wrap {
+    display: flex;
+    width: 30%;
 }
 
 #section6 .skill__box {
@@ -880,7 +889,11 @@
     margin-right: 0;
 }
 
-#section6 .skill__inner:nth-of-type(even) .skill__box:nth-last-of-type(3) {
+/* #section6 .skill__inner:nth-of-type(even) .skill__box:nth-last-of-type(3) {
+    margin-right: 0;
+} */
+
+#section6 .line_2 .skill__box:nth-last-of-type(3) {
     margin-right: 0;
 }
 
@@ -898,6 +911,7 @@
 }
 
 #section6 .skill__inner span {
+    width: 70%;
     margin-left: 130px;
     color: var(--primarycolor);
     font-family: "GmarketSans";
@@ -916,7 +930,7 @@
 #section6 .skill04 .line_2 {
     display: flex;
     flex-wrap: wrap;
-    width: 383px;
+    width: 754px;
     justify-content: flex-end;
 }
 
@@ -1001,7 +1015,7 @@
     margin-right: 13px;
     padding: 7px 25px;
     border-radius: 50px;
-    background-color: var(--y);
+    background-color: var(--yd);
     color: var(--primarycolor);
     font-size: 25px;
     font-weight: 700;
@@ -1078,9 +1092,139 @@
 
 #section9 {
     width: 100%;
-    height: 100vh;
     position: relative;
     z-index: 1;
     background-color: var(--b);
-    padding: auto 10vw;
+    padding: 10vw 10vw;
+}
+
+#section9 .project__wrap {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#section9 .project__img:nth-child(1) {
+    width: 1150px;
+    height: 765px;
+    background-image: url(../img/project2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#section9 .project__img:nth-child(3) {
+    width: 1145px;
+    height: 860px;
+    background-image: url(../img/project3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#section9 .project__img:nth-child(5) {
+    width: 1150px;
+    height: 765px;
+    background-image: url(../img/project1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#section9 .project__inner {
+    padding: 100px 67px;
+    width: 1300px;
+    height: 815px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 40px;
+    transform: rotate(-1.9deg);
+}
+
+#section9 .project__inner:nth-child(2) {
+    background-color: var(--r);
+}
+
+#section9 .project__inner:nth-child(4) {
+    background-color: var(--o);
+}
+
+#section9 .project__inner:nth-child(6) {
+    background-color: var(--y);
+}
+
+#section9 .project__inner .project__title {
+    font-size: 120px;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: -80px;
+    color: var(--primarycolor);
+}
+
+#section9 .project__inner .porject__desc {
+    font-size: 25px;
+    font-weight: 500;
+    color: var(--primarycolor);
+    word-break: keep-all;
+}
+
+#section9 .project__inner .project__bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+#section9 .project__inner .project__bottom .project__bottom__left {
+    display: flex;
+}
+
+#section9 .project__bottom .tag__time {
+    display: inline-block;
+    padding: 7px 25px;
+    border-radius: 50px;
+    background-color: var(--primarycolor);
+    color: var(--white);
+    font-size: 25px;
+    font-family: "Montserrat Alternates";
+    font-weight: 700;
+    margin-right: 14px;
+}
+
+#section9 .project__bottom .project__tag__wrap {
+    display: flex;
+}
+
+#section9 .project__bottom .project__tag {
+    margin-right: 13px;
+    padding: 7px 25px;
+    border-radius: 50px;
+    background-color: var(--yd);
+    font-size: 25px;
+    font-family: "Montserrat Alternates";
+    font-weight: 700;
+    color: var(--primarycolor);
+}
+
+#section9 .project__bottom .go__site {
+    display: inline-flex;
+    align-items: center;
+    padding: 7px 25px;
+    border-radius: 50px;
+    background-color: var(--primarycolor);
+    color: var(--white);
+    font-size: 25px;
+    font-family: "Montserrat Alternates";
+    font-weight: 700;
+}
+
+#section9 .project__bottom .icon {
+    width: 37px;
+    height: 28px;
+    background-image: url(../img/smallArrow.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 20px;
+    transform: rotate(1.9deg);
 }
