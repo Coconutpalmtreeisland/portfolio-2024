@@ -19,7 +19,4 @@ $(function () {
             $(".img3").removeClass("on");
         });
     });
-
-
-
 });

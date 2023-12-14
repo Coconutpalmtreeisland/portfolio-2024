@@ -9,13 +9,13 @@ body {
 }
 
 .container {
+    max-width: 1300px;
     width: 100%;
-    padding: 0 306px;
-    box-sizing: border-box;
+    margin: 0 auto;
 }
 
-.container2 {
+/* .container2 {
     width: 100%;
     padding: 0 386px;
     box-sizing: border-box;
-}
+} */

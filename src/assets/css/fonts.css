@@ -10,6 +10,10 @@
 @import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;500;600;700&family=Neonderthaw&family=Tilt+Neon&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,900&display=swap');
 
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css');
+@import url('https://webfontworld.github.io/BMJua/BMJua.css');
+@import url('https://webfontworld.github.io/dgb/IMHyemin.css');
+
 /* font-family: 'Birthstone'; */
 /* font-family: 'Galada'; */
 /* font-family: 'Kaushan Script'; */
@@ -20,6 +24,10 @@
 /* font-family: 'DynaPuff'; */
 /* font-family: 'Tilt Neon'; */
 /* font-family: 'Playfair Display'; */
+/* font-family: 'Pretendard Variable'; */
+/* font-family: 'Pretendard'; */
+/* font-family: 'BMJua'; */
+/* font-family: 'IMHyemin'; */
 
 .shrink {
     font-family: "Shrikhand";
@@ -49,6 +57,6 @@
     font-family: "SCoreDream";
 }
 
-.shrink {
+.Gmarket {
     font-family: "GmarketSans";
 }
